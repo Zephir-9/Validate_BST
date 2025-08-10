@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     static ValidateBST validateBST = new ValidateBST();
 
-    public static void moin(String[] args) {
+    public static void main(String[] args) {
         int rootVal = 0;
         Scanner input = new Scanner(System.in);
         rootVal = input.nextInt();
