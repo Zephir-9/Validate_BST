@@ -9,6 +9,7 @@ public class Main {
     static ValidateBST validateBST = new ValidateBST();
 
     public static void main(String[] args) {
+
         int size = 0;
         Scanner input = new Scanner(System.in);
 
