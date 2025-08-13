@@ -22,7 +22,13 @@ public class Main {
         Main tree = new Main();
         TreeNode root = tree.createTreeFromArray(nodes);
 
-        System.out.print("BST is valid: " + validateBST.isValidBST(root));
+        boolean valid = validateBST.isValidBST(root);
+        if (valid){
+            System.out.print("BST is valid");
+        } else {
+            System.out.print("BST is not valid");
+        }
+
     }
 
     public TreeNode createTreeFromArray(int[] array) {
